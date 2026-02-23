@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://moebiusordernewsalternate.netlify.app/data/images/b2/banner.png" alt="MON CS DOCS Banner" width="800"/>
+<img src="https://moebiusordernewsalternate.netlify.app/data/images/b2/banner.png" alt="MON CS DOCS Media CDN" width="800"/>
 
 # MON CS DOCS Media CDN
 
@@ -24,6 +24,8 @@
 
 **MonCSDocs Media CDN** is the centralized asset delivery network for the [MON CS DOCS](https://github.com/Moebius-Order/moncsdocs) documentation platform. This repository serves as the source-of-truth for all visual resources used across the web and mobile applications.
 
+Managed by **[Moebius Order](https://www.moebiusorder.com)**, this CDN infrastructure provides high-performance asset delivery for educational content worldwide.
+
 ### Purpose
 
 - **High-Performance Delivery**: Optimized asset serving via global CDN infrastructure
@@ -32,7 +34,7 @@
 - **Community Contributions**: Open submission process for educational diagrams
 - **Legal Protection**: Clear licensing and copyright management for all assets
 
-### CDN Root URL
+### CDN Architecture
 
 All assets in this repository are accessible via:
 
@@ -44,79 +46,32 @@ https://media.moncsdocs.moebiusorder.com/<path-to-asset>
 - Repository path: `/data/algorithms/binary-search-tree.svg`
 - CDN URL: `https://media.moncsdocs.moebiusorder.com/data/algorithms/binary-search-tree.svg`
 
+**Benefits**:
+- Fast global delivery via CDN caching
+- Automatic versioning through Git history
+- Secure hosting with HTTPS
+- Analytics and usage tracking
+
 ---
 
-## Folder Architecture & Path Structure
+## Repository Structure
 
-### Directory Map
+### Educational Assets Directory
 
-The repository is organized into three primary directories with distinct access levels:
+The `/data` directory contains all community-contributed educational assets organized by Computer Science topics:
 
 ```
-moncsdocs-media/
-├── logo/            [RESTRICTED] Official branding assets
-│   ├── moebius-order-logo.png
-│   ├── moncsdocs-logo.png
-│   └── moncsdocs-banner.png
-├── assets/          [RESTRICTED] Platform UI components
-│   ├── icons/
-│   ├── backgrounds/
-│   └── ui-elements/
-└── data/            [OPEN] Community-contributed educational assets
-    ├── algorithms/
-    ├── data-structures/
-    ├── operating-systems/
-    ├── networks/
-    ├── databases/
-    ├── computer-architecture/
-    └── ...more topics
+data/
+├── algorithms/              # Algorithm visualizations
+├── data-structures/         # Data structure diagrams
+├── operating-systems/       # Operating system concepts
+├── networks/                # Networking diagrams
+├── databases/               # Database concepts
+├── computer-architecture/   # Hardware architecture
+└── ...                      # Additional CS topics
 ```
 
-### `/logo` - Official Branding (RESTRICTED)
-
-**Access Level**: Read-only for community contributors.
-
-Contains official logos and brand assets:
-- Moebius Order corporate logo
-- MON CS DOCS project logo and banner
-- Trademark-protected visual identity
-
-> **Warning**: Pull Requests modifying this directory will be automatically rejected.
-
-**Official Assets**:
-- **MON CS DOCS Logo**: [https://moebiusordernewsalternate.netlify.app/data/images/b2/logo.png](https://moebiusordernewsalternate.netlify.app/data/images/b2/logo.png)
-- **MON CS DOCS Banner**: [https://moebiusordernewsalternate.netlify.app/data/images/b2/banner.png](https://moebiusordernewsalternate.netlify.app/data/images/b2/banner.png)
-- **Moebius Order Logo**: [https://moebiusorder.com/logo.png](https://moebiusorder.com/logo.png)
-
-### `/assets` - Platform Components (RESTRICTED)
-
-**Access Level**: Read-only for community contributors.
-
-Contains proprietary UI elements used by the MON CS DOCS web and mobile applications:
-- Interface icons and buttons
-- Background patterns and textures
-- Navigation graphics
-- Application-specific visual components
-
-> **Warning**: Pull Requests modifying this directory will be automatically rejected.
-
-These assets are integral to the platform's proprietary design system and cannot be modified by external contributors.
-
-### `/data` - Educational Content (OPEN FOR CONTRIBUTIONS)
-
-**Access Level**: Open for community contributions.
-
-> This is where **ALL community contributions must be placed**.
-
-The `/data` directory contains:
-
-- **Topic-Organized Diagrams**: Organized by CS subject area
-- **Educational Illustrations**: Concept visualizations, flowcharts, state diagrams
-- **Architectural Diagrams**: System designs, network topologies, hardware layouts
-- **Algorithm Visualizations**: Step-by-step visual explanations
-- **Data Structure Graphics**: Trees, graphs, heaps, hash tables
-
-#### Subdirectory Organization
+### Content Categories
 
 | Directory | Purpose | Examples |
 |-----------|---------|----------|
@@ -127,52 +82,38 @@ The `/data` directory contains:
 | `/data/databases/` | Database concepts | `normalization-example.svg`, `b-tree-index.png` |
 | `/data/computer-architecture/` | Hardware diagrams | `cpu-pipeline.svg`, `cache-hierarchy.png` |
 
-### Path Logic: Repository to CDN Mapping
-
-**How it works**:
-
-1. You upload a file to the repository: `/data/algorithms/quicksort-partition.svg`
-2. After merge, it becomes accessible via CDN: `https://media.moncsdocs.moebiusorder.com/data/algorithms/quicksort-partition.svg`
-3. Documentation pages reference the CDN URL for fast, cached delivery
-
-**Benefits**:
-- Fast global delivery via CDN caching
-- Automatic versioning through Git history
-- Secure hosting with HTTPS
-- Analytics and usage tracking
-
 ---
 
-## Contribution Guidelines & Naming Conventions
+## Contribution Guidelines
 
-### The "Data-First" Rule
+### Asset Submission Process
 
-> **CRITICAL**: All community contributions MUST be placed within the `/data/*` directory structure.
+We welcome high-quality educational diagrams and illustrations from the community.
 
-Contributions to `/logo` or `/assets` will be rejected without review.
+> **All contributions must be placed within the `/data` directory structure.**
 
-### Naming Conventions for URL Optimization
+### Naming Conventions
 
-To ensure clean, SEO-friendly, and accessible URLs, follow these strict naming rules:
+Follow these standards for clean, SEO-friendly, and accessible URLs:
 
 #### 1. Lowercase Only
 
-**Bad**: `BinarySearchTree.svg`, `TCP_Handshake.PNG`  
-**Good**: `binary-search-tree.svg`, `tcp-handshake.png`
+**Incorrect**: `BinarySearchTree.svg`, `TCP_Handshake.PNG`  
+**Correct**: `binary-search-tree.svg`, `tcp-handshake.png`
 
-#### 2. Use Hyphens (-) Instead of Spaces or Underscores
+#### 2. Use Hyphens for Separators
 
-**Bad**: `merge sort visualization.svg`, `heap_insertion.png`  
-**Good**: `merge-sort-visualization.svg`, `heap-insertion.png`
+**Incorrect**: `merge sort visualization.svg`, `heap_insertion.png`  
+**Correct**: `merge-sort-visualization.svg`, `heap-insertion.png`
 
-#### 3. Descriptive and Specific Names
+#### 3. Descriptive Filenames
 
-**Bad**: `diagram1.svg`, `image.png`, `fig-3.jpg`  
-**Good**: `process-scheduling-round-robin.svg`, `b-plus-tree-insertion.png`
+**Incorrect**: `diagram1.svg`, `image.png`, `fig-3.jpg`  
+**Correct**: `process-scheduling-round-robin.svg`, `b-plus-tree-insertion.png`
 
-#### 4. Include Context in Name
+#### 4. Include Context
 
-Use the filename to describe what the asset represents:
+Use filenames that clearly describe the asset:
 
 - `quicksort-partition-step-1.svg`
 - `osi-model-seven-layers.png`
@@ -181,37 +122,37 @@ Use the filename to describe what the asset represents:
 
 ### File Format Standards
 
-#### Preferred Formats (in order of priority)
+#### Preferred Formats
 
-**1. SVG (Scalable Vector Graphics)** — Best for diagrams, flowcharts, graphs
-- Infinitely scalable
-- Small file size
+**1. SVG (Scalable Vector Graphics)** — Primary format for diagrams
+- Infinitely scalable without quality loss
+- Small file size and fast loading
 - Editable and accessible
 - **Required** for: Algorithm flowcharts, data structure diagrams, system architecture
 
-**2. WebP** — Best for complex illustrations with gradients/photos
-- Superior compression
+**2. WebP** — For complex illustrations
+- Superior compression compared to PNG/JPEG
 - Modern browser support
 - Excellent quality-to-size ratio
 
-**3. PNG** — Fallback for complex visuals
+**3. PNG** — Fallback for raster graphics
 - Lossless compression
 - Wide compatibility
 - Use when SVG is not practical
 
-#### Avoid These Formats
+#### Formats to Avoid
 
 - **JPEG**: Lossy compression degrades diagram clarity
-- **GIF**: Outdated, poor quality
-- **BMP**: Uncompressed, massive file sizes
+- **GIF**: Outdated format with poor quality
+- **BMP**: Uncompressed files with excessive file sizes
 
 ### Quality Standards
 
 Before submitting, ensure your asset meets these criteria:
 
-- **Clarity**: Text and labels are readable at typical screen resolutions
+- **Clarity**: Text and labels are readable at standard screen resolutions
 - **Simplicity**: Focused on explaining one concept clearly
-- **Consistency**: Visual style matches existing assets (if applicable)
+- **Consistency**: Visual style aligns with existing assets
 - **Optimization**: File size is minimized without quality loss
 - **Accessibility**: Color choices work for colorblind users
 - **Attribution**: Source information included if adapted from external work
@@ -223,7 +164,7 @@ Before submitting, ensure your asset meets these criteria:
 git clone https://github.com/YOUR-USERNAME/moncsdocs-media.git
 cd moncsdocs-media
 
-# 2. Create a topic branch
+# 2. Create a feature branch
 git checkout -b add/algorithms/quicksort-diagram
 
 # 3. Add your asset to the appropriate /data subdirectory
@@ -260,54 +201,34 @@ I confirm that I own the copyright to this asset or have the legal right to cont
 
 ---
 
-## Permissions & Access Control
+## Permissions & Rights
 
-### Protected Paths
+### Contributor Grant of Rights
 
-The following directories are **RESTRICTED** to Moebius Order maintainers only:
-
-- `/logo/*` — Official branding and trademark assets
-- `/assets/*` — Proprietary platform UI components
-
-#### Automatic Rejection Policy
-
-Any Pull Request that includes modifications to these directories will be:
-1. Automatically flagged by CI/CD checks
-2. Rejected without manual review
-3. Closed with a standard explanation message
-
-**Reasons for restriction**:
-
-- **Brand Integrity**: Prevents unauthorized use or modification of trademarks
-- **Platform Consistency**: Ensures UI components remain synchronized with application code
-- **Legal Protection**: Maintains clear boundaries for intellectual property
-
-### Permission Grant for `/data` Contributions
-
-> **Important Understanding**: By uploading an asset to the `/data` directory, you grant Moebius Order specific rights.
+> By uploading an asset to the `/data` directory, you grant **Moebius Order** specific rights necessary for CDN operation.
 
 **Rights granted**:
 
 1. **CDN Distribution**: Right to serve your asset via `media.moncsdocs.moebiusorder.com`
 2. **Format Conversion**: Right to optimize or convert formats for performance
 3. **Caching**: Right to cache and replicate assets across CDN nodes globally
-4. **Modification**: Right to resize, compress, or adapt assets for different devices/platforms
+4. **Modification**: Right to resize, compress, or adapt assets for different devices
 5. **Integration**: Right to embed assets in MON CS DOCS web and mobile applications
 
-All rights are subject to **CC BY-SA 4.0 license** terms, meaning:
+All rights are subject to **CC BY-SA 4.0 license** terms:
 - Your attribution will be preserved
 - Derivatives must maintain the same license
 - Commercial use is permitted
 
 ---
 
-## Legal & Liability Protection
+## Legal Framework & Liability
 
-### Host Disclaimer
+### Service Provider Disclaimer
 
-**CRITICAL LEGAL NOTICE**:
+**IMPORTANT LEGAL NOTICE**:
 
-> **Moebius Order acts as a SERVICE PROVIDER and HOSTING PLATFORM** for community-contributed media assets in the `/data` directory.
+> **Moebius Order acts as a service provider and hosting platform** for community-contributed media assets.
 
 **Moebius Order is NOT**:
 - The original author or copyright holder of community-submitted assets
@@ -315,103 +236,91 @@ All rights are subject to **CC BY-SA 4.0 license** terms, meaning:
 - Liable for copyright infringement claims arising from user contributions
 - An endorser or guarantor of asset accuracy or quality
 
-**Moebius Order operates under**:
-- Digital Millennium Copyright Act (DMCA) safe harbor provisions (U.S.)
-- E-Commerce Directive Article 14 hosting exemption (EU)
-- Similar international intermediary liability protections
+**Legal Framework**:
+- Operates under Digital Millennium Copyright Act (DMCA) safe harbor provisions (U.S.)
+- Complies with E-Commerce Directive Article 14 hosting exemption (EU)
+- Adheres to similar international intermediary liability protections
 
 ### Contributor Warranty
 
 By contributing to `/data`, you represent and warrant:
 
-1. You are the original creator, OR you have obtained all necessary rights
+1. You are the original creator OR have obtained all necessary rights
 2. Your contribution does not infringe any third-party intellectual property
 3. You have the legal authority to license the asset under CC BY-SA 4.0
 4. You will indemnify Moebius Order against claims arising from your contribution
 
-See [LICENSE](LICENSE) for full contributor warranty terms.
+Refer to [LICENSE](LICENSE) for complete contributor warranty terms.
 
 ### DMCA Takedown Protocol
 
-**For Copyright Holders**:
+#### For Copyright Holders
 
-If you believe an asset in this repository infringes your copyright, submit a takedown notice.
-
-#### Required Information
+If you believe an asset infringes your copyright, submit a takedown notice with:
 
 1. Your contact details (name, address, email, phone)
 2. Identification of your copyrighted work
-3. Specific file path (e.g., `/data/algorithms/example.svg`) and CDN URL
+3. Specific file path and CDN URL
 4. Good faith statement that use is unauthorized
 5. Statement under penalty of perjury that information is accurate
 6. Physical or electronic signature
 
-#### Submit To
+**Submit to**: [moncsdocs@moebiusorder.com](mailto:moncsdocs@moebiusorder.com)  
+**Subject**: "DMCA Takedown Notice - moncsdocs-media"
 
-- **Email**: [moncsdocs@moebiusorder.com](mailto:moncsdocs@moebiusorder.com)
-- **Subject**: "DMCA Takedown Notice - moncsdocs-media"
-
-#### Response Timeline
-
-Moebius Order will respond within **48-72 hours** and will:
+**Response Timeline**: Within 48-72 hours, Moebius Order will:
 1. Remove or disable access to the allegedly infringing material
 2. Notify the contributor who uploaded the content
 3. Provide counter-notice instructions if applicable
 
-### Counter-Notice Procedure
+#### Counter-Notice Procedure
 
-If your content was removed and you believe it was a mistake:
+If your content was removed and you believe it was in error:
 
 1. Submit a counter-notice explaining why the content is not infringing
 2. Include your contact information and signature
 3. Consent to jurisdiction of federal court (or local equivalent)
 4. Accept service of process from the original claimant
 
-After 10-14 business days (unless the claimant files a lawsuit), content may be restored.
+Content may be restored after 10-14 business days unless the claimant files a lawsuit.
 
 ---
 
-## Funding & CDN Infrastructure
+## Infrastructure & Funding
 
 **MON CS DOCS Media CDN is provided free of charge** to support open education.
 
-### Infrastructure Costs
+### Infrastructure Requirements
 
-Maintaining a high-performance CDN requires ongoing investment:
+Maintaining enterprise-grade CDN infrastructure requires ongoing investment:
 
 | Component | Description |
 |-----------|-------------|
 | **CDN Bandwidth** | Global content delivery and edge caching |
-| **Storage** | Scalable object storage for thousands of assets |
-| **Security** | SSL certificates, DDoS protection, access control |
-| **Optimization** | Automatic image compression and format conversion |
-| **Monitoring** | Uptime tracking, performance analytics, error logging |
-| **Maintenance** | Server management, updates, backups |
+| **Storage Infrastructure** | Scalable object storage for asset library |
+| **Security Systems** | SSL certificates, DDoS protection, access control |
+| **Optimization Pipeline** | Automatic image compression and format conversion |
+| **Monitoring & Analytics** | Uptime tracking, performance metrics, error logging |
+| **System Maintenance** | Server management, updates, backups |
 
-### Support the CDN
+### Support the Project
 
-Help us keep the media infrastructure fast, secure, and ad-free.
+Help us maintain fast, secure, and ad-free infrastructure.
 
 Click the **Sponsor** button at the top of this repository, or visit:
 
-- **Website**: [mcdocs.moebiusorder.com/donate](https://mcdocs.moebiusorder.com/donate)
+- **Donation Page**: [mcdocs.moebiusorder.com/donate](https://mcdocs.moebiusorder.com/donate)
 - **Patreon**: [patreon.com/moebius_order](https://patreon.com/moebius_order)
 - **Ko-fi**: [ko-fi.com/moebiusorder](https://ko-fi.com/moebiusorder)
 - **Buy Me a Coffee**: [buymeacoffee.com/moebiusorder](https://buymeacoffee.com/moebiusorder)
-
-Every contribution helps us:
-- Increase CDN bandwidth capacity
-- Improve global delivery speeds
-- Expand storage for more assets
-- Enhance security and reliability
 
 ---
 
 ## Community & Support
 
-Join the MON CS DOCS community:
+Connect with the MON CS DOCS community:
 
-- **Telegram Channel**: [t.me/moncsdocs](https://t.me/moncsdocs) — Updates and announcements
+- **Telegram Channel**: [t.me/moncsdocs](https://t.me/moncsdocs) — Announcements and updates
 - **Telegram Chat**: [t.me/moncsdocschat](https://t.me/moncsdocschat) — Questions and discussions
 - **Discord**: [discord.gg/yb6XgkhBXU](https://discord.gg/yb6XgkhBXU) — Real-time collaboration
 - **Reddit**: [r/moncsdocs](https://www.reddit.com/r/moncsdocs) — Long-form discussions
@@ -433,31 +342,22 @@ Join the MON CS DOCS community:
 
 </div>
 
-All assets in the `/data` directory are licensed under the **[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)**.
+All educational assets in the `/data` directory are licensed under the **[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)**.
 
-**You are free to**:
-- Share — Copy and redistribute assets
-- Adapt — Remix, transform, and build upon assets
-- Commercial use — Use in commercial projects
+**License Terms**:
+- **Share**: Copy and redistribute assets in any medium or format
+- **Adapt**: Remix, transform, and build upon assets for any purpose
+- **Commercial Use**: Permitted with proper attribution
 
-**Under these terms**:
-- **Attribution** — Credit "MonCSDocs Media by Moebius Order and contributors"
-- **ShareAlike** — Derivatives must use the same license
-
-### Trademark Notice
-
-> **Assets in `/logo` and `/assets` are NOT covered by CC BY-SA 4.0.**
-
-The following are registered trademarks of **Moebius Order**:
-- "Moebius Order" name and logo
-- "MON CS DOCS" name and logo
-- Visual brand identity and design system
-
-Unauthorized use of trademarks is prohibited. Contact [moncsdocs@moebiusorder.com](mailto:moncsdocs@moebiusorder.com) for licensing inquiries.
+**Requirements**:
+- **Attribution**: Credit "MonCSDocs Media by Moebius Order and contributors"
+- **ShareAlike**: Derivatives must use the same CC BY-SA 4.0 license
 
 ### Copyright Statement
 
-© 2026 **Moebius Order**. Community-contributed assets in `/data` licensed under CC BY-SA 4.0. Trademarks and proprietary assets remain exclusive property of Moebius Order.
+© 2026 **Moebius Order**. Community-contributed assets in `/data` licensed under CC BY-SA 4.0.
+
+**Trademarks**: "Moebius Order" and "MON CS DOCS" are trademarks of Moebius Order. Unauthorized use of trademarks is prohibited.
 
 For complete license terms, see [LICENSE](LICENSE) or visit [mcsdocs.moebiusorder.com/g/license](https://mcsdocs.moebiusorder.com/g/license).
 
