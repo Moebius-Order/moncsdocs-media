@@ -68,7 +68,9 @@ data/
 ├── networks/                # Networking diagrams
 ├── databases/               # Database concepts
 ├── computer-architecture/   # Hardware architecture
-└── ...                      # Additional CS topics
+├── compilers/               # Compiler design diagrams
+├── security/                # Security concepts
+└── etc.                     # Additional CS topics
 ```
 
 ### Content Categories
@@ -81,6 +83,7 @@ data/
 | `/data/networks/` | Networking diagrams | `tcp-handshake.svg`, `osi-model.png` |
 | `/data/databases/` | Database concepts | `normalization-example.svg`, `b-tree-index.png` |
 | `/data/computer-architecture/` | Hardware diagrams | `cpu-pipeline.svg`, `cache-hierarchy.png` |
+| etc. | Additional CS topics | Various educational assets |
 
 ---
 
@@ -381,5 +384,6 @@ For complete license terms, see [LICENSE](LICENSE) or visit [mcsdocs.moebiusorde
 Managed by [Moebius Order](https://www.moebiusorder.com) | Assets licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 <img src="https://moebiusordernewsalternate.netlify.app/data/images/b2/logo.png" alt="MON CS DOCS" width="100"/>
+<img src="https://moebiusorder.com/logo.png" alt="Moebius Order" width="100"/>
 
 </div>
