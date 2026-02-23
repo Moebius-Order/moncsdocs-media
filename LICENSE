@@ -1,0 +1,226 @@
+LICENSE
+
+MonCSDocs Media Assets Repository
+
+This repository is the official asset library for the MonCSDocs Project, managed by Moebius Order.
+
+Organization: https://github.com/moebius-order
+Main Documentation Repository: https://github.com/Moebius-Order/moncsdocs
+Website: https://mcdocs.moebiusorder.com
+License Page: https://mcsdocs.moebiusorder.com/g/license
+
+================================================================================
+
+License Designation
+
+All media assets in this repository, including but not limited to images, SVGs, diagrams, illustrations, and visual resources, are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit
+- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+
+================================================================================
+
+Contributor Warranty and Representation
+
+IMPORTANT: READ BEFORE CONTRIBUTING
+
+By uploading, submitting, or contributing any media asset to this repository, you explicitly represent and warrant that:
+
+1. You are the original creator and copyright owner of the asset, OR you have obtained all necessary rights, licenses, and permissions to share the asset under the CC BY-SA 4.0 license.
+
+2. The asset does not infringe upon any third-party copyright, trademark, patent, trade secret, or other intellectual property rights.
+
+3. You have the legal authority and right to grant the license specified in this document.
+
+4. The asset does not contain any confidential, proprietary, or private information belonging to third parties.
+
+5. You agree to indemnify and hold harmless Moebius Order, the MonCSDocs project, and all contributors from any claims, damages, or legal actions arising from your contribution.
+
+By submitting a Pull Request (PR) or uploading any file to this repository, you acknowledge that you have read, understood, and agreed to these terms.
+
+================================================================================
+
+Host Liability Disclaimer and Limitation of Liability
+
+CRITICAL NOTICE:
+
+Moebius Order acts solely as a SERVICE PROVIDER and HOSTING PLATFORM for community-contributed media assets. Moebius Order is NOT responsible for:
+
+1. The original source, authorship, or copyright status of any community-contributed files
+2. Verification of copyright ownership or licensing rights of uploaded assets
+3. Any copyright infringement, trademark violations, or intellectual property disputes arising from contributed content
+4. The accuracy, quality, safety, or technical integrity of uploaded files
+5. Any damages, losses, or legal consequences resulting from the use of assets in this repository
+
+LIMITATION OF LIABILITY:
+
+Moebius Order, its officers, employees, contributors, and affiliates SHALL NOT BE LIABLE for:
+
+- Any direct, indirect, incidental, consequential, special, or punitive damages arising from the use of assets in this repository
+- Any claims of copyright infringement or intellectual property violations related to community-contributed content
+- Any technical issues, corrupted files, malware, or security vulnerabilities present in uploaded assets
+- Any legal disputes between contributors and third-party copyright holders
+
+Moebius Order operates under the principles of the Digital Millennium Copyright Act (DMCA) and similar international safe harbor provisions as a neutral hosting platform.
+
+================================================================================
+
+Notice and Takedown Protocol
+
+Copyright Infringement Claims:
+
+If you are a copyright holder (or authorized agent) and believe that any asset in this repository infringes your copyright, you may submit a takedown notice.
+
+To file a valid takedown request, please provide:
+
+1. Your contact information (name, address, email, phone number)
+2. Identification of the copyrighted work you claim has been infringed
+3. Identification of the specific file(s) in this repository that you claim are infringing
+4. A statement that you have a good faith belief that the use is not authorized by the copyright owner
+5. A statement, under penalty of perjury, that the information in your notice is accurate and that you are the copyright owner or authorized to act on behalf of the owner
+6. Your physical or electronic signature
+
+Submit takedown notices to:
+
+Email: moncsdocs@moebiusorder.com
+Subject Line: "DMCA Takedown Notice - moncsdocs-media"
+
+Community Support:
+- Telegram Channel: https://t.me/moncsdocs
+- Telegram Chat: https://t.me/moncsdocschat
+- Discord Server: https://discord.gg/yb6XgkhBXU
+- Reddit: https://www.reddit.com/r/moncsdocs
+
+Upon receipt of a valid takedown notice, Moebius Order will promptly remove or disable access to the allegedly infringing material and notify the contributor who uploaded the content.
+
+Counter-Notice:
+
+If you believe your content was removed in error, you may submit a counter-notice following standard DMCA counter-notification procedures.
+
+================================================================================
+
+Trademark Reservation and Brand Identity
+
+IMPORTANT TRADEMARK NOTICE:
+
+While the media assets in this repository are licensed under CC BY-SA 4.0, the following trademarks and brand identities are NOT open source and remain the exclusive property of Moebius Order:
+
+- The "Moebius Order" name and logo
+- The "MonCSDocs" name and logo
+- The "MON CS DOCS" branding and wordmarks
+- Any official Moebius Order brand assets, including color schemes, typography, and visual identity systems
+
+These trademarks and brand elements CANNOT be used without explicit written permission from Moebius Order.
+
+Permitted Use:
+- Attribution purposes as required by the CC BY-SA 4.0 license
+- Factual references to the MonCSDocs project
+- Links and references in educational or editorial contexts
+
+Prohibited Use:
+- Creating derivative logos or branding that could cause confusion with official Moebius Order products
+- Using the trademarks to imply endorsement or affiliation without authorization
+- Commercial exploitation of the Moebius Order or MonCSDocs brand identity
+
+For trademark usage inquiries, contact: moncsdocs@moebiusorder.com
+
+================================================================================
+
+No Warranty Disclaimer
+
+DISCLAIMER:
+
+All media assets in this repository are provided "AS-IS" WITHOUT WARRANTY OF ANY KIND, either expressed or implied, including but not limited to:
+
+- Warranties of merchantability or fitness for a particular purpose
+- Warranties of non-infringement or accuracy
+- Warranties regarding technical integrity, file safety, or freedom from errors
+
+Technical Safety Notice:
+
+Moebius Order does NOT guarantee that files in this repository are:
+- Free from corruption, malware, or security vulnerabilities
+- Technically accurate or suitable for any specific purpose
+- Compatible with all systems, software, or platforms
+- Optimized for performance or file size
+
+Users are responsible for:
+- Scanning and validating files before use
+- Ensuring compatibility with their systems
+- Verifying the accuracy and appropriateness of assets for their intended use
+- Maintaining backups and taking precautions against data loss
+
+Educational Asset Notice:
+
+Assets in this repository are created for educational purposes. While contributors strive for accuracy:
+
+- Diagrams may be simplified for pedagogical clarity
+- Technical illustrations may not reflect the most current standards
+- Visual representations may contain inadvertent errors
+
+Users should verify technical information independently and use these assets as supplementary educational resources.
+
+================================================================================
+
+Attribution Requirements
+
+When using assets from this repository, provide appropriate attribution:
+
+Required Attribution:
+"The MonCSDocs Media Project by Moebius Order and its contributors"
+
+With a link to this repository: https://github.com/Moebius-Order/moncsdocs-media
+
+Example Attribution:
+```
+Image adapted from The MonCSDocs Media Project by Moebius Order and its contributors
+(https://github.com/Moebius-Order/moncsdocs-media), licensed under CC BY-SA 4.0.
+```
+
+================================================================================
+
+Share-Alike Requirement
+
+Any derivative work or modifications of assets from this repository must be distributed under the same Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+================================================================================
+
+Full Legal Code
+
+This is a human-readable summary of (and not a substitute for) the license.
+
+For the complete legal text of the Creative Commons Attribution-ShareAlike 4.0 International License, please visit:
+
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Web version of this license: https://mcsdocs.moebiusorder.com/g/license
+
+================================================================================
+
+Contact and Support
+
+For questions about licensing, contributions, copyright claims, or trademark usage:
+
+Email: moncsdocs@moebiusorder.com
+
+Community Support:
+- Telegram Channel: https://t.me/moncsdocs
+- Telegram Chat: https://t.me/moncsdocschat
+- Discord Server: https://discord.gg/yb6XgkhBXU
+- Reddit: https://www.reddit.com/r/moncsdocs
+
+You can also open an issue in this repository or contact Moebius Order through the organization page.
+
+Moebius Order Company Website: https://www.moebiusorder.com
+
+================================================================================
+
+© 2026 Moebius Order. Media assets licensed under CC BY-SA 4.0.
+Trademarks and brand identity remain proprietary to Moebius Order.
