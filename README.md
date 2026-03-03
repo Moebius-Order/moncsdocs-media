@@ -12,7 +12,7 @@
 [![Platform Status](https://img.shields.io/badge/Platform%20Status-Live-brightgreen)](https://status.moebiusorder.com)
 [![Managed by Moebius Order](https://img.shields.io/badge/Managed%20by-Moebius%20Order-blue)](https://www.moebiusorder.com)
 
-**CDN Root**: [media.moncsdocs.moebiusorder.com](https://media.moncsdocs.moebiusorder.com)
+**CDN Root**: [media.mcdocs.moebiusorder.com](https://media.mcdocs.moebiusorder.com)
 
 [Main Docs Repo](https://github.com/Moebius-Order/moncsdocs) • [License](https://mcsdocs.moebiusorder.com/g/license) • [Community](https://t.me/moncsdocs) • [Donate](https://mcdocs.moebiusorder.com/donate)
 
@@ -39,12 +39,12 @@ Managed by **[Moebius Order](https://www.moebiusorder.com)**, this CDN infrastru
 All assets in this repository are accessible via:
 
 ```
-https://media.moncsdocs.moebiusorder.com/<path-to-asset>
+https://media.mcdocs.moebiusorder.com/<path-to-asset>
 ```
 
 **Example**:
 - Repository path: `/data/algorithms/binary-search-tree.svg`
-- CDN URL: `https://media.moncsdocs.moebiusorder.com/data/algorithms/binary-search-tree.svg`
+- CDN URL: `https://media.mcdocs.moebiusorder.com/data/algorithms/binary-search-tree.svg`
 
 **Benefits**:
 - Fast global delivery via CDN caching
