@@ -44,7 +44,7 @@ https://media.mcdocs.moebiusorder.com/<path-to-asset>
 
 **Example**:
 - Repository path: `/data/algorithms/binary-search-tree.svg`
-- CDN URL: `https://media.mcdocs.moebiusorder.com/data/algorithms/binary-search-tree.svg`
+- CDN URL: `https://media.mcdocs.moebiusorder.com/algorithms/binary-search-tree.svg`
 
 **Benefits**:
 - Fast global delivery via CDN caching
